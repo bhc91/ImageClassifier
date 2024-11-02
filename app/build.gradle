@@ -11,7 +11,7 @@ android {
     namespace 'com.example.imageclassifier'
 
     defaultConfig {
-        applicationId "org.tensorflow.lite.examples.imageclassification"
+        applicationId "com.example.imageclassifier"
         minSdk 23
         targetSdk 32
         versionCode 1

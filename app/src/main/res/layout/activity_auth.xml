@@ -4,7 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/background_color">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_logo"
+        android:contentDescription="@string/logo"
+        android:layout_marginBottom="32dp"/>
 
     <EditText
         android:id="@+id/emailEditText"
@@ -13,8 +23,9 @@
         android:hint="Email"
         android:inputType="textEmailAddress"
         android:autofillHints="emailAddress"
-        android:layout_marginBottom="8dp"
-        android:imeOptions="actionNext"/>
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"/>
 
     <EditText
         android:id="@+id/passwordEditText"
@@ -22,23 +33,36 @@
         android:layout_height="wrap_content"
         android:hint="Password"
         android:inputType="textPassword"
-        android:layout_marginBottom="16dp"
-        android:imeOptions="actionDone"/>
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"/>
 
     <Button
         android:id="@+id/loginButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:layout_marginBottom="8dp"
-        android:contentDescription="Login Button"/>
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/button_text_color"/>
 
     <Button
         android:id="@+id/registerButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Register"
-        android:layout_marginBottom="8dp"
-        android:contentDescription="Register Button"/>
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/button_text_color"/>
+
+    <TextView
+        android:id="@+id/registerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Register"
+        android:textColor="@color/link_text_color"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:focusable="true"/>
 
 </LinearLayout>

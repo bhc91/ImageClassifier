@@ -9,4 +9,7 @@
     <color name="icActive">#FFEB3B</color>
     <color name="icFocused">#FF9800</color>
     <color name="icPressed">#FF5722</color>
+    <color name="background_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="link_text_color">#0000FF</color>
 </resources>

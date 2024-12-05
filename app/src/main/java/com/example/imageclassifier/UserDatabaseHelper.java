@@ -53,4 +53,14 @@ public class UserDatabaseHelper extends SQLiteOpenHelper {
         db.close();
         return isLoggedIn;
     }
+
+    public boolean updateUserPassword(String email, String newPassword) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put("password", newPassword);
+
+        // Update password where email matches
+        int rowsAffected = db.update("users", values, "email = ?", new String[]{email});
+        return rowsAffected > 0;
+    }
 }

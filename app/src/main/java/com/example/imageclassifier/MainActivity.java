@@ -48,6 +48,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Set up the profile button using View Binding
+        binding.profileButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ProfileActivity.class));
+            }
+        });
+
     }
 
     private void logoutUser() {

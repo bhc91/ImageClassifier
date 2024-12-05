@@ -58,6 +58,13 @@
             android:exported="true"
             android:theme="@style/AppTheme" />
 
+        <!-- ProfileActivity declaration -->
+        <activity
+            android:name=".ProfileActivity"
+            android:label="Profile"
+            android:exported="true"
+            android:theme="@style/AppTheme" />
+
     </application>
 
 </manifest>

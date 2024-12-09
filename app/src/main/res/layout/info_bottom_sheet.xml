@@ -44,7 +44,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:text="@string/label_interence_time"
-                android:textColor="@color/bottom_sheet_text_color"
+                android:textColor="@android:color/black"
                 android:textSize="@dimen/bottom_sheet_text_size" />
 
             <TextView
@@ -54,7 +54,7 @@
                 android:layout_centerVertical="true"
                 android:gravity="end"
                 android:text="@string/default_inference_time"
-                android:textColor="@color/bottom_sheet_text_color"
+                android:textColor="@android:color/black"
                 android:textSize="@dimen/bottom_sheet_text_size" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:text="@string/label_confidence_threshold"
-                android:textColor="@color/bottom_sheet_text_color"
+                android:textColor="@android:color/black"
                 android:textSize="@dimen/bottom_sheet_text_size" />
 
             <LinearLayout
@@ -97,7 +97,7 @@
                     android:gravity="center"
                     android:minEms="@integer/bottom_sheet_control_text_min_ems"
                     android:text="@string/default_threshold"
-                    android:textColor="@color/bottom_sheet_text_color"
+                    android:textColor="@android:color/black"
                     android:textSize="@dimen/bottom_sheet_text_size" />
 
                 <androidx.appcompat.widget.AppCompatImageButton
@@ -122,7 +122,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:text="@string/label_max_results"
-                android:textColor="@color/bottom_sheet_text_color"
+                android:textColor="@android:color/black"
                 android:textSize="@dimen/bottom_sheet_text_size" />
 
             <LinearLayout
@@ -148,7 +148,7 @@
                     android:gravity="center"
                     android:minEms="@integer/bottom_sheet_control_text_min_ems"
                     android:text="@string/default_max_results"
-                    android:textColor="@color/bottom_sheet_text_color"
+                    android:textColor="@android:color/black"
                     android:textSize="@dimen/bottom_sheet_text_size" />
 
                 <androidx.appcompat.widget.AppCompatImageButton
@@ -173,7 +173,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:text="@string/label_threads"
-                android:textColor="@color/bottom_sheet_text_color"
+                android:textColor="@android:color/black"
                 android:textSize="@dimen/bottom_sheet_text_size" />
 
             <LinearLayout
@@ -199,7 +199,7 @@
                     android:gravity="center"
                     android:minEms="@integer/bottom_sheet_control_text_min_ems"
                     android:text="2"
-                    android:textColor="@color/bottom_sheet_text_color"
+                    android:textColor="@android:color/black"
                     android:textSize="@dimen/bottom_sheet_text_size" />
 
                 <androidx.appcompat.widget.AppCompatImageButton
@@ -221,7 +221,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/label_delegate"
-                android:textColor="@color/bottom_sheet_text_color"
+                android:textColor="@android:color/black"
                 android:textSize="@dimen/bottom_sheet_text_size" />
 
             <androidx.appcompat.widget.AppCompatSpinner
@@ -246,7 +246,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/label_models"
-                android:textColor="@color/bottom_sheet_text_color"
+                android:textColor="@android:color/black"
                 android:textSize="@dimen/bottom_sheet_text_size" />
 
             <androidx.appcompat.widget.AppCompatSpinner

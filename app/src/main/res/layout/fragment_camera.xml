@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/camera_container"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
 
     <androidx.camera.view.PreviewView
         android:id="@+id/view_finder"
@@ -22,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top"
         android:layout_marginBottom="@dimen/bottom_sheet_peek_height"
-        android:background="@color/bottom_sheet_background"
+        android:background="@android:color/white"
         android:clipToPadding="true"
         android:padding="@dimen/bottom_sheet_padding"
         app:layout_anchor="@id/bottom_sheet_layout"
@@ -32,7 +31,7 @@
     <View
         android:layout_width="wrap_content"
         android:layout_height="@dimen/bottom_sheet_seperate_results_line"
-        android:background="@color/bounding_box_color"
+        android:background="@android:color/black"
         app:layout_anchor="@id/recyclerview_results"
         app:layout_anchorGravity="bottom" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

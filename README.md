@@ -1,3 +1,5 @@
+# Group Members: Johann Estrada Pox & Tim Hendrik Luhmann
+
 # Image Classifier
 
 This project is an Android application for classifying images using various machine learning models. The app supports multiple models and delegates, and provides a user-friendly interface for adjusting inference settings.
